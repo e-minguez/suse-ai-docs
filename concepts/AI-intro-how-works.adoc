@@ -27,13 +27,13 @@ For security and compliance.
 {sobservability} (https://www.suse.com/solutions/observability/)::
 Provides advanced performance and data monitoring. 
 
-{sstorage} (https://www.suse.com/solutions/storage/)::
+{sstorage} (https://www.suse.com/products/rancher/storage/)::
 Enterprise-grade storage solution. 
 
-{svirtualization} (https://www.suse.com/solutions/virtualization/)::
+{svirtualization} (https://www.suse.com/products/rancher/virtualization/)::
 For virtualized workloads. 
 
-{smlm} (https://www.suse.com/products/multilinux-manager/)::
+{smlm} (https://www.suse.com/products/multi-linux-manager/)::
 For managing multiple Linux distributions. 
 
 {sappco} (https://www.suse.com/products/rancher/application-collection)::

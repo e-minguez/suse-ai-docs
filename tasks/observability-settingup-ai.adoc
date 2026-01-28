@@ -194,16 +194,16 @@ The difference between deployment scenarios affects the *OTEL Collector exporter
 SUSE_OBSERVABILITY_API_URL::
 The URL of the {sobservability} API.
 +
-*Single-cluster example:* http://suse-observability-otel-collector.suse-observability.svc.cluster.local:4317
+*Single-cluster example:* \http://suse-observability-otel-collector.suse-observability.svc.cluster.local:4317
 +
-*Multi-cluster example:* https://suse-observability-api.your-domain.com
+*Multi-cluster example:* \https://suse-observability-api.your-domain.com
 
 SUSE_OBSERVABILITY_COLLECTOR_ENDPOINT::
 The endpoint of the {sobservability} Collector.
 +
-*Single-cluster example:* http://suse-observability-router.suse-observability.svc.cluster.local:8080/receiver/stsAgent
+*Single-cluster example:* \http://suse-observability-router.suse-observability.svc.cluster.local:8080/receiver/stsAgent
 +
-*Multi-cluster example:* https://suse-observability-router.your-domain.com/receiver/stsAgent
+*Multi-cluster example:* \https://suse-observability-router.your-domain.com/receiver/stsAgent
 
 [.procedure]
 . *Install {nvoperator}.*

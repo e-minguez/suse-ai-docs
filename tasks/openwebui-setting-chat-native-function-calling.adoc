@@ -34,6 +34,6 @@ image::owui-tools-nfc.png[A screenshot showing how to enable native function cal
 You may find the following information sources useful: 
 
 * https://github.com/open-webui/mcpo[{mcpo} homepage on GitHub]
-* https://docs.openwebui.com/openapi-servers/open-webui/[{owui} Integration documentation]
-* https://docs.openwebui.com/openapi-servers/mcp/[{owui} support for {mcp}]
+* https://docs.openwebui.com/features/plugin/tools/openapi-servers/open-webui[{owui} Integration documentation]
+* https://docs.openwebui.com/features/mcp[{owui} support for {mcp}]
 * https://github.com/modelcontextprotocol/servers[The {mcp} servers' GitHub repository]
