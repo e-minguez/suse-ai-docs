@@ -25,7 +25,6 @@ endif::[]
 // erase the flag for future overrides
 :override-abstract!:
 :override-title!:
-
 [#_host_os_requirements]
 == Host OS requirements
 
@@ -178,8 +177,8 @@ RKE2 will now use `PATH` to find alternative container runtimes, in addition to 
 
 It's recommended that you modify one of this two environment files:
 
-* /etc/default/rke2-server # or rke2-agent
-* /etc/sysconfig/rke2-server # or rke2-agent
+* `/etc/default/rke2-server` # or rke2-agent
+* `/etc/sysconfig/rke2-server` # or rke2-agent
 
 This example will add the `PATH` in `/etc/default/rke2-server`:
 
