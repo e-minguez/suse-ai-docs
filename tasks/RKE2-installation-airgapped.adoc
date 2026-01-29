@@ -18,7 +18,7 @@ ifndef::override-abstract[]
 {rke2} can be installed in an air-gapped environment with two different methods. You can either deploy via the `rke2-airgap-images` tarball artifact or by using a private registry.
 endif::[]
 
-:revdate: 2026-01-29
+:revdate: 2025-12-22
 :page-revdate: {revdate}
 
 // erase the flag for future overrides
