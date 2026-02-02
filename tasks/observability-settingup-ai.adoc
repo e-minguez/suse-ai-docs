@@ -238,6 +238,7 @@ kubectl create secret generic open-telemetry-collector \
 +
 Create a new file named `otel-values.yaml` with the following content.
 +
+--
 ifdef::deployment_standard[]
 [source,yaml]
 ----
@@ -505,6 +506,7 @@ Because {milvus} will be installed in subsequent steps, you can return to this s
 Remember that the value can be distinct, depending on the deployment pattern.
 For production usage, we recommend using TLS communication.
 <.> Replace `<CLUSTER_NAME>` with the cluster's name.
+--
 +
 Finally, run the installation command.
 +
@@ -558,6 +560,7 @@ Then apply the configuration by running the following command.
 ----
 . *Install the {sobservability} Agent.*
 +
+--
 [source,bash,subs="+attributes"]
 ----
 {prompt_user}helm upgrade --install \
@@ -571,6 +574,7 @@ Then apply the configuration by running the following command.
 <.> Retrieve the API key using the Web UI or from the `baseConfig_values.yaml` file that you used during the {sobservability} installation.
 <.> Replace `<CLUSTER_NAME>` with the cluster's name.
 <.> Replace with your {sobservability} server URL.
+--
 . *Install {productname}.*
 Refer to xref:ai-library-installing[] for the complete procedure.
 
