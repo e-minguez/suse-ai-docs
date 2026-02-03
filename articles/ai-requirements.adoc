@@ -1,6 +1,5 @@
 include::../common/generic-attributes.adoc[]
 = {productname} Requirements
-
 :docinfo:
 :doctype: article
 :experimental:

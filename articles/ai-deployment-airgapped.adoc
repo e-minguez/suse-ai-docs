@@ -1,6 +1,5 @@
 include::../common/generic-attributes.adoc[]
 = Deploying and Installing {productname} in Air-Gapped Environments
-
 :docinfo:
 :doctype: article
 :experimental:

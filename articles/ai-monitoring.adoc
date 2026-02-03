@@ -1,6 +1,5 @@
 include::../common/generic-attributes.adoc[]
 = Monitoring SUSE AI with OpenTelemetry and SUSE Observability 
-
 :docinfo:
 :doctype: article
 :experimental:

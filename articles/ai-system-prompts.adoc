@@ -1,6 +1,5 @@
 include::../common/generic-attributes.adoc[]
 = Guiding the AI Model with System Prompts
-
 :docinfo:
 :doctype: article
 :experimental:

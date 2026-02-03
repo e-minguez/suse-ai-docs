@@ -1,6 +1,5 @@
 include::../common/generic-attributes.adoc[]
 = Smartdoc article written in AsciiDoc
-
 :docinfo:
 :doctype: article
 :experimental:
