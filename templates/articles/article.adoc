@@ -1,9 +1,9 @@
 include::../common/generic-attributes.adoc[]
 = Smartdoc article written in AsciiDoc
 
+:docinfo:
 :doctype: article
 :experimental:
-:docinfo:
 
 ifdef::env-github[]
 :imagesdir: ../images/

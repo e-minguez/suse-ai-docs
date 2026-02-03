@@ -1,9 +1,9 @@
 include::../common/generic-attributes.adoc[]
 = Deploying and Installing {productname}
 
+:docinfo:
 :doctype: article
 :experimental:
-:docinfo:
 
 ifdef::env-github[]
 :imagesdir: ../images/
