@@ -1,8 +1,15 @@
 <revhistory xml:id="rh-ai-monitoring">
+  <revision><date>2026-02-04</date>
+    <revdescription>
+      <para>
+        Added a section about monitoring with the OpenTelemetry Operator
+      </para>
+    </revdescription>
+  </revision>
   <revision><date>2025-11-07</date>
     <revdescription>
       <para>
-        Added section on monitoring {vllm}
+        Added a section on monitoring {vllm}
       </para>
     </revdescription>
   </revision>
