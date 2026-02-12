@@ -34,12 +34,12 @@ command as described in xref:suse-ai-deploy-suse-ai[].
 {prompt_user}helm show values oci://registry.suse.com/ai/charts/litellm
 ----
 
-To list the available chart versions from this {sregistry}, you can use tools like crane, {skopeo}, etc.
-Here is an example of the `crane` command.
+To list the available chart versions from this {sregistry}, you can use tools like podman, crane, {skopeo}, etc.
+Here is an example of the `podman` command.
 [source,,subs="+attributes"]
 ----
-{prompt_user}crane auth login registry.suse.com -u regcode -p <SCC_REG_CODE>
-{prompt_user}crane ls registry.suse.com/ai/charts/litellm
+{prompt_user}podman login registry.suse.com -u regcode -p <SCC_REG_CODE>
+{prompt_user}podman search --list-tags registry.suse.com/ai/charts/litellm
 ----
 
 [#litellm-installing-procedure]
