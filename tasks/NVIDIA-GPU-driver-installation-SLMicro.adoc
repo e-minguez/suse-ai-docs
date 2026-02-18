@@ -148,7 +148,7 @@ nvidia-persistenced=$\{version}
 {prompt_root}reboot
 ----
 
-. After the system has rebooted, log back in and run `nvidia-cli` command as {rootuser} to ensure it correctly detects the GPU and displays the GPU details.
+. After the system has rebooted, log back in and run `nvidia-smi` command as {rootuser} to ensure it correctly detects the GPU and displays the GPU details.
 +
 [source,bash,subs="+attributes"]
 ----
