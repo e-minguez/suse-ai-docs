@@ -39,7 +39,7 @@ include::../snippets/helm-chart-overrides-intro.adoc[]
 |list
 |[{"name":"OPENAI_API_KEY", "value":"0p3n-w3bu!"}]
 |Environment variables added to the {owui} deployment.
-Most up-to-date environment variables can be found in link:https://docs.openwebui.com/getting-started/env-configuration/[].
+Most up-to-date environment variables can be found in link:https://docs.openwebui.com/reference/env-configuration[Environment Variable Configuration].
 
 |extraEnvVars[0]
 |object
@@ -173,7 +173,7 @@ These can be added instead of automatically installing the {ollama} {helm} chart
 |string
 |""
 |OpenAI base API URL to use.
-Defaults to the Pipelines service endpoint when Pipelines are enabled, or to `\https://api.openai.com/v1` if Pipelines are not enabled and this value is blank.
+Defaults to the Pipelines service endpoint when Pipelines are enabled, or to `https://api.openai.com/v1` if Pipelines are not enabled and this value is blank.
 
 |persistence.accessModes
 |list
@@ -213,7 +213,7 @@ Defaults to the Pipelines service endpoint when Pipelines are enabled, or to `\h
 |pipelines.enabled
 |bool
 |false
-|Automatically install Pipelines chart to extend {owui} functionality using Pipelines, see link:https://github.com/open-webui/pipelines/[].
+|Automatically install Pipelines chart to extend {owui} functionality using link:https://github.com/open-webui/pipelines[Pipelines].
 
 |pipelines.extraEnvVars
 |list

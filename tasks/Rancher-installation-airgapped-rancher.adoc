@@ -28,10 +28,6 @@ endif::[]
 
 When the {ranchermanager} server is deployed in the Docker container, a local Kubernetes cluster is installed within the container for {ranchermanager} to use. Because many features of {ranchermanager} run as deployments, and privileged mode is required to run containers within containers, you will need to install {ranchermanager} with the `--privileged` option.
 
-== Docker Instructions
-
-If you want to continue the air gapped installation using Docker commands, skip the rest of this page and follow the instructions on link:https://documentation.suse.com/cloudnative/rancher-manager/latest/en/installation-and-upgrade/other-installation-methods/air-gapped/install-rancher.html[this page.].
-
 == Kubernetes Instructions
 
 {ranchermanager} recommends installing {ranchermanager} on a Kubernetes cluster. A highly available Kubernetes install is comprised of three nodes running the {ranchermanager} server components on a Kubernetes cluster. The persistence layer (etcd) is also replicated on these three nodes, providing redundancy and data duplication in case one of the nodes fails.
@@ -47,13 +43,9 @@ From a system that has access to the internet, fetch the latest Helm chart and c
 ----
 helm repo add rancher-prime <helm-chart-repo-url>
 ----
-+
-include::shared:ROOT:partial$en/helm-chart-repo-url.adoc[]
 
 . Fetch the {rancherprime} chart. This will pull down the chart and save it in the current directory as a `.tgz` file.
 ** To fetch the latest version:
-+
-include::shared:ROOT:partial$en/rancher-chart-rename.adoc[]
 +
 [,shell]
 ----
@@ -69,8 +61,6 @@ helm search repo --versions rancher-prime
 ----
 +
 Fetch a specific version by specifying the `--version` parameter:
-+
-include::shared:ROOT:partial$en/rancher-chart-rename.adoc[]
 +
 [,shell]
 ----

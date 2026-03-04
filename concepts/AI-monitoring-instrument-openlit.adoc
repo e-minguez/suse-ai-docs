@@ -14,7 +14,7 @@ endif::[]
 
 [TIP]
 ====
-For the full list of configuration options for {openlit} SDKs, check https://docs.openlit.io/latest/sdk-configuration[the upstream documentation].
+For the full list of configuration options for {openlit} SDKs, check link:https://docs.openlit.io/latest/sdk/configuration[the upstream documentation].
 ====
 
 == Instrumenting using Python {openlit} SDK

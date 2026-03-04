@@ -22,7 +22,7 @@ include::../snippets/helm-chart-overrides-intro.adoc[]
 
 | `image.registry`
 | string
-| `link:http://dp.apps.rancher.io[dp.apps.rancher.io]`
+| `http://dp.apps.rancher.io[dp.apps.rancher.io]`
 | Registry that hosts the PyTorch container image.
 
 | `image.repository`
@@ -73,8 +73,8 @@ If set to `'amd'`, a _rocm_ image tag is inferred.
 
 | `gpu.nvidiaResource`
 | string
-| `\link:http://nvidia.com/gpu[]`
-| Requested resource name; change to a MIG slice (e.g. `\link:http://nvidia.com/mig-1g.10gb[nvidia.com/mig-1g.10gb]`) to schedule MIG devices.
+| `http://nvidia.com/gpu`
+| Requested resource name; change to a MIG slice (e.g. `http://nvidia.com/mig-1g.10gb`) to schedule MIG devices.
 
 | `gpu.mig.enabled`
 | bool
@@ -161,7 +161,7 @@ If set to `'amd'`, a _rocm_ image tag is inferred.
 | `{}`
 | Annotations added to the ServiceAccount.
 
-| `\link:http://serviceAccount.name[serviceAccount.name]`
+| `http://serviceAccount.name`
 | string
 | `""`
 | Explicit ServiceAccount name (otherwise auto-generated).
@@ -349,7 +349,7 @@ If set to `'amd'`, a _rocm_ image tag is inferred.
 | `gitClone.repository`
 | string
 | `""`
-| Repository to clone (`link:http://github.com/org/repo[github.com/org/repo]`, no protocol).
+| Repository to clone (`http://github.com/org/<REPO>`, no protocol).
 
 | `gitClone.revision`
 | string
