@@ -1,7 +1,7 @@
 include::../common/generic-attributes.adoc[]
 = Using Open WebUI for Effective AI Model Interaction 
 :docinfo:
-:doctype: article
+:doctype: book
 :experimental:
 
 ifdef::env-github[]

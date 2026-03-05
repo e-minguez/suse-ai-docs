@@ -1,4 +1,4 @@
-:doctype: article
+:doctype: book
 :experimental:
 :docinfo:
 

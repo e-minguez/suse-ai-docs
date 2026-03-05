@@ -1,7 +1,7 @@
 include::../common/generic-attributes.adoc[]
 = Configuring {owui} for AI Interaction 
 :docinfo:
-:doctype: article
+:doctype: book
 :experimental:
 :part-of-article:
 

@@ -1,7 +1,7 @@
 include::../common/generic-attributes.adoc[]
 = Introduction to {productname}
 :docinfo:
-:doctype: article
+:doctype: book
 :experimental:
 
 ifdef::env-github[]

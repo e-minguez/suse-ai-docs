@@ -1,7 +1,7 @@
 include::../common/generic-attributes.adoc[]
 = Preventing AI Hallucinations with Effective User Prompts
 :docinfo:
-:doctype: article
+:doctype: book
 :experimental:
 
 ifdef::env-github[]
