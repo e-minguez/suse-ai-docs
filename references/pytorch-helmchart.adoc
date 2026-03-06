@@ -349,7 +349,7 @@ If set to `'amd'`, a _rocm_ image tag is inferred.
 | `gitClone.repository`
 | string
 | `""`
-| Repository to clone (`http://github.com/org/<REPO>`, no protocol).
+| Repository to clone (http://github.com/org/`REPO`, no protocol).
 
 | `gitClone.revision`
 | string
