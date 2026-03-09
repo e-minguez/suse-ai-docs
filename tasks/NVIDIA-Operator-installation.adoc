@@ -67,6 +67,7 @@ This library is used by Kubernetes components to interact with the kernel driver
 == Operator installation
 
 Once the OS is ready and RKE2 is running, install the GPU Operator with the following yaml manifest.
+Use the `kubectl apply -f gpu-operator.yaml` command to install the operator.
 
 [CAUTION]
 ====
@@ -80,6 +81,7 @@ The envvars `ACCEPT_NVIDIA_VISIBLE_DEVICES_ENVVAR_WHEN_UNPRIVILEGED`, `ACCEPT_NV
 
 [,yaml]
 ----
+# gpu-operator.yaml
 apiVersion: helm.cattle.io/v1
 kind: HelmChart
 metadata:
