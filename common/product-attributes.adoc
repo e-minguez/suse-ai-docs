@@ -3,6 +3,7 @@
 
 :doctype: embed
 
+ifeval::["{product}" == "suseai"]
 // PRODUCT NAME AND VERSIONS
 :productname:       SUSE AI
 :productnameshort:  SUSE AI
@@ -27,3 +28,4 @@
 
 :installmedia:      {sles-ai-version}-Online-ARCH-GM-media1.iso
 :packagemedia:      {sles-ai-version}-Full-ARCH-GM-media1.iso
+endif::[]
