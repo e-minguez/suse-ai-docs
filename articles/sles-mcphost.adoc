@@ -24,10 +24,10 @@ WHY?::
   You want to install the MCP host and integrate it with an LLM.
 
 EFFORT::
-  State the expected time investment and any required background knowledge.
+  It takes approx. 15 minutes to read the article.
 
 GOAL::
-  Describe the concrete outcome after the reader finishes this article.
+  You will have an installed instance of the MCP host ready to be integrated with MCP servers.
 
 REQUIREMENTS::
 
@@ -45,6 +45,8 @@ include::../concepts/mcphost-introduction.adoc[leveloffset=+1]
 include::../tasks/mcphost-installation.adoc[leveloffset=+1]
 
 include::../references/mcphost-configuration.adoc[leveloffset=+1]
+
+include::../glues/mcphost-whats-next.adoc[leveloffset=+1]
 
 [appendix]
 include::../common/common_copyright_gfdl.adoc[]

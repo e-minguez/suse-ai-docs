@@ -13,8 +13,6 @@ endif::[]
 :revdate: 2026-04-DD03
 :page-revdate: {revdate}
 
-The MCP Host (mcphost) is a command-line tool designed to act as a central mediator between a Large Language Model (LLM) and various specialized tools known as MCP servers. 
-
 Its primary purpose is to provide a structured environment where an LLM can safely access system information, execute commands, or manage files to perform complex tasks that the model cannot do on its own.
 
 [#mcphost-introduction-how-it-works]

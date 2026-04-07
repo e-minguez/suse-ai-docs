@@ -4,12 +4,7 @@ include::../common/generic-attributes.adoc[]
 // overridden title?
 
 // overridden abstract?
-ifdef::override-abstract[]
-{override-abstract}
-endif::[]
-ifndef::override-abstract[]
-An introductory paragraph.
-endif::[]
+
 
 // erase the flag for future overrides
 :override-abstract!:
@@ -63,7 +58,7 @@ The example above restricts the LLM to access only `/etc`` and `/var/log`, to us
 
 
 [source,bash]
-sudo zypper in mcphost
+mcphost  --config PATH_TO_THE_JSON_CONFIGURAION_FILE
 
 
 
